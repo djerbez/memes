@@ -10,6 +10,9 @@ header {
     border-radius: 25px;
     padding: 20px;
     text-align: center;
+    position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 header h1 {
@@ -21,13 +24,13 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    
 }
 
 .movie {
     width: 300px;
     text-align: center;
-    margin: 20px;
+    margin: 15px;
 }
 
 .movie img {
